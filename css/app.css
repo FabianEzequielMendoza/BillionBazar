@@ -1,0 +1,28 @@
+#carrousel .carousel-item img{
+    object-fit: cover;
+    height:40vh;
+}
+body{
+    background-color:#EBEBEB;
+    padding-top:40px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 50px!important;
+}
+
+.card-body p,.card-body a{
+    display:none;
+} 
+/* .card:hover +img,.card-title:hover +p,.card:hover +a{
+    display: block;
+    
+} */ 
+.card img{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;
+}
+/* .card:hover,.card-body p,.card-body a{
+    transform: scale(1.2); /* Igual que: scaleX(0.7) scaleY(0.7) */
+} */
